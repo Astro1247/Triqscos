@@ -8,7 +8,7 @@ router.get('/', async function(req, res, next) {
       res.send(err);
     } else if (pagelist.length) {
       res.render('index', {
-       title: 'Express', pagelist: pagelist
+       title: 'Triqscos', pagelist: pagelist
       });
     } else {
       res.send('No pages found');
